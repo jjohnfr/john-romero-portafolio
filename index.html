@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio John</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./css/gryd.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+</head>
+<body>
+    <input type="checkbox" id="check">
+    <!--header area start-->
+    <header>
+        <label for="check">
+            <i class="fas fa-bars"id="sidebar-btn"></i>
+        </label>
+        <div class="left-area">
+            <h3>John <span>Romero</span></h3>
+        </div>
+        <div class="right-area">
+            <a href="" class="logout-btn"> Logout</a>
+        </div>
+    </header>
+    <!--header area end-->
+    <!--mobile navigation start-->
+    <div class="mobile-nav">
+        <div class="nav-bar">
+            <img src="./image/face.jpg" alt="" class="mobile-profile-image">
+            <i class="fa fa-bars nav-btn"></i>
+        </div>
+        <div class="mobile-nav-items">
+            <a href="#"><i class="fas fa-desktop"></i><span>Welcome</span></a>
+            <a href="#"><i class="fas fa-address-card"></i><span>Profile</span></a>
+            <a href="#"><i class="fab fa-android"></i><span>about me</span></a>
+            <a href="#"><i class="fas fa-th"></i><span>My education</span></a>
+            <a href="#"><i class="fas fa-cogs"></i><span>My protects</span></a>
+            <a href="#"><i class="fas fa-sliders-h"></i><span>My experience</span></a>
+        </div>   
+    </div>
+
+    <!--mobile navigation end-->
+
+    <!--sidebar start-->
+    <div class="sidebar">
+        <div class="profile-info">
+            <img src="./image/face.jpg" alt="" class="profile-image">
+            <h4>John Romero</h4>
+        </div>
+        <a href="#"><i class="fas fa-desktop"></i><span>welcome</span></a>
+        <a href="#"><i class="fas fa-address-card"></i><span>Profile</span></a>
+        <a href="#"><i class="fab fa-android"></i><span>About me</span></a>
+        <a href="#"><i class="fas fa-th"></i><span>My education</span></a>
+        <a href="#"><i class="fas fa-cogs"></i><span>My proyects</span></a>
+        <a href="#"><i class="fas fa-sliders-h"></i><span>My experience</span></a>
+    </div>
+    <!--sidebar end-->
+    <div class="content">
+
+    </div>
+
+    <div class="welcome">
+        <div class="cards-welcome">
+            <div class="card-w">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nobis, ullam dolorem fugiat expedita nemo optio omnis obcaecati dolor iusto aut dignissimos rem voluptatibus aliquid. Dolorum odio similique perferendis quasi.</p>
+            </div>
+            <div class="card-w">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nobis, ullam dolorem fugiat expedita nemo optio omnis obcaecati dolor iusto aut dignissimos rem voluptatibus aliquid. Dolorum odio similique perferendis quasi.</p>
+            </div>
+            <div class="card-w">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nobis, ullam dolorem fugiat expedita nemo optio omnis obcaecati dolor iusto aut dignissimos rem voluptatibus aliquid. Dolorum odio similique perferendis quasi.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="my-education">
+        <div class="container">
+            <h3>posts</h3>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 col-sm-12">
+                    <div class="card">
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laboriosam provident fugiat alias sapiente a dolor earum sequi rerum minima reiciendis, harum soluta illum magnam necessitatibus quo quis quisquam cupiditate.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-sm-12">
+                    <div class="card">
+                        <h3>Title</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed eligendi ducimus tenetur, iusto consectetur quibusdam autem vitae recusandae commodi quam obcaecati iure labore ullam corporis sequi, deleniti earum pariatur excepturi.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-sm-12">
+                    <div class="card">
+                        <h3>Title</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed eligendi ducimus tenetur, iusto consectetur quibusdam autem vitae recusandae commodi quam obcaecati iure labore ullam corporis sequi, deleniti earum pariatur excepturi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="my-projects">
+            
+    </div>
+
+        <div class="footer">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-2x fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-2x fa-github-square"></i></a>
+            <a href="#"><i class="fab fa-2x fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-2x fa-instagram-square"></i></a>
+        </div>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".nav-btn").click(function(){
+                $(".mobile-nav-items").toggleClass("active")
+        });
+    });
+    </script>
+
+</body>
+</html>
